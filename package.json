@@ -1,0 +1,25 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "eslint .  --ext .js"
+  },
+  "keywords": [],
+  "author": "Gabriel Alejandro Gomez",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
